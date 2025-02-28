@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/*img and h1*/
+.header-container{
+    background-color: #120323;
+    text-align: center;
+    color: #97bf04;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    padding: 20px;
+}
+
+main figure  {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 15px;
+
+}
+
+main figure img{
+    border: 5px solid #d9043d;
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+main figure figcaption h2 {
+    color: #120323;
+    margin-top: 10px;
+}
+
+main figure figcaption p {
+    margin-top: 10px;
+
+}
+
+aside{
+    background-color: #97bf04;
+    padding: 10px;
+}
+
+footer{
+    background-color: #d9043d;
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
