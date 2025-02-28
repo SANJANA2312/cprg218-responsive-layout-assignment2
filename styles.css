@@ -133,7 +133,12 @@ devices less than 1000px wide*/
     }
     main figure img {
         width:300px;
-        height: 300px;
+        
+    }
+
+    aside {
+        margin-top: 15px;
+        width: 100%;
     }
 
 
