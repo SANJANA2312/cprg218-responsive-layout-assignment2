@@ -67,3 +67,63 @@ footer{
     padding: 25px;
     color: white;
 }
+
+/*MEDIA QUERIES*/
+/* 3 column layout with sidebar on the right
+
+for devices 1000px wide or greater*/
+@media screen and (min-width:1000px) {
+    .header-container{
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+    #container {
+        flex-direction: row;
+        margin: 2rem 0 1rem;
+        align-items: center;
+    }
+     main {
+        flex: 4;
+     }
+     main figure {
+        flex-direction: row;
+        display: flex;
+        gap: 10px;
+     }
+     main figure img {
+        width: 350px;
+     }
+
+     /*sidebar on right*/
+     aside {
+        flex:1;
+        padding: 15px 10px;
+     }
+
+     footer {
+        margin-top: 15px;
+        
+     }
+
+
+
+}
+
+/*logo and company name on same line 
+puffin image no wider than 300px
+image and caption next to each other using flexbox
+
+devices less than 1000px wide*/
+@media screen and (max-width: 999px) {
+
+}
+
+/*logo and company name on separate lines
+content in one column
+puffin image centered horizontally and 1005 width is taken
+
+devices less than 768px wide */
+@media screen and (max-width: 767px) {
+
+}
