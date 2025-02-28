@@ -80,7 +80,7 @@ for devices 1000px wide or greater*/
     }
     #container {
         flex-direction: row;
-        margin: 2rem 0 1rem;
+        margin: 2rem 0;
         align-items: center;
     }
      main {
@@ -103,7 +103,7 @@ for devices 1000px wide or greater*/
 
      footer {
         margin-top: 15px;
-        margin-bottom: 5px;
+      
         
      }
 
