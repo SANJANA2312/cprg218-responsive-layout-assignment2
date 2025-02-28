@@ -140,6 +140,11 @@ devices less than 1000px wide*/
         margin-top: 15px;
         width: 100%;
     }
+    footer {
+        margin-top:15px;
+        margin-bottom:15px;
+        width:100%
+    }
 
 
     
