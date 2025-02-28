@@ -80,7 +80,7 @@ for devices 1000px wide or greater*/
     }
     #container {
         flex-direction: row;
-        margin: 2rem 0;
+        /*margin: 2rem 0;*/
         align-items: center;
     }
      main {
