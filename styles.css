@@ -122,7 +122,11 @@ devices less than 1000px wide*/
 @media screen and (max-width: 999px) {
     .header-container{
         flex-direction: row;
-        justify-content: top;
+        justify-content: center;
+    }
+
+    #container figure{
+        justify-content:top;
     }
      main figure{
         display: flex;
