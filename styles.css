@@ -72,12 +72,29 @@ footer{
 
 /*logo and company name on separate lines
 content in one column
-puffin image centered horizontally and 1005 width is taken
+puffin image centered horizontally and 100% width of page is taken
 
 devices less than 768px wide */
 @media screen and (max-width: 767px) {
+    .header-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    #container {
+        flex-direction:column;
+    }
+    main figure img {
+        width:100%
 
-}
+    }
+    aside {
+        margin-bottom: 10px;
+    }
+    }
+
+
+
+
 
 
 /*logo and company name on same line 
@@ -85,7 +102,7 @@ puffin image no wider than 300px
 image and caption next to each other using flexbox
 
 devices less than 1000px wide*/
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 1000px) {
     .header-container{
         display: flex;
         flex-direction: row;
