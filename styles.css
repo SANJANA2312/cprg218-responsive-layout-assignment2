@@ -75,12 +75,14 @@ content in one column
 puffin image centered horizontally and 100% width of page is taken
 
 devices less than 768px wide */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .header-container{
+        display: flex;
         flex-direction: column;
         text-align: center;
     }
     #container {
+        display:flex;
         flex-direction:column;
     }
     main figure img {
