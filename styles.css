@@ -86,18 +86,13 @@ devices less than 768px wide */
         flex-direction:column;
     }
     main figure img {
-        width:100%
+        max-width:100%;
 
     }
     aside {
         margin-bottom: 10px;
     }
     }
-
-
-
-
-
 
 /*logo and company name on same line 
 puffin image no wider than 300px
@@ -133,16 +128,13 @@ devices less than 1000px wide*/
     footer {
         margin-top:15px;
         margin-bottom:15px;
-        width:100%
+        width:100%;
     }
 
 
     
 
 }
-
-
-
 
 /* 3 column layout with sidebar on the right
 
