@@ -15,8 +15,8 @@ body{
     background-color: #120323;
     text-align: center;
     color: #97bf04;
-    display: flex;
-    flex-direction: column;
+   /* display: flex;
+    flex-direction: column;*/
     align-items: center;
     gap: 10px;
     padding: 15px;
@@ -76,6 +76,9 @@ puffin image centered horizontally and 100% width of page is taken
 
 devices less than 768px wide */
 @media screen and (max-width: 768px) {
+    /*body {
+        background-color: green;
+    }*/
     .header-container{
         display: flex;
         flex-direction: column;
